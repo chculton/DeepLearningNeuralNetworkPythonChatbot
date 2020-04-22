@@ -1,0 +1,24 @@
+{"intents":
+  [
+    {"tag": "greeting",
+     "patterns": ["Hi","hi","Hello","Good day!"],
+     "responses": ["Hi!", "How are you?", "How can I help?"]
+   },
+   {"tag":"SignOff",
+     "patterns": ["Bye", "See you", "Cheers", "Goodbye!", "Have a nice day."],
+     "responses": ["Thank you, bye!","Hope to chat again soon!", "Moi moi!"]
+   },
+   {"tag":"HowIsChatbot",
+     "patterns": ["How are you?", "Whats up?", "What are you up to today?", "I have had an okay day, how about you?", "How has your day been?"],
+     "responses": ["Thank you, bye!","Hope to chat again soon!", "Moi moi!"]
+   },
+   {"tag":"UserIsGood",
+     "patterns": ["I'm good.", "im fine", "I'm alright", "This has been the best day of my life!", "Eh, it's okay."],
+     "responses": ["Well I am glad to hear things are good!","I know how you feel!"]
+   },
+   {"tag":"Weather",
+     "patterns": ["What's the weather like?", "Hows the weather today?", "Do you know what its like outside"],
+     "responses": ["I'm sorry, I don't have that information!","I don't actually know the weather, anteeks!"]
+   }
+  ]
+}
